@@ -3,7 +3,7 @@ on:
   fork
 jobs:
   fork_test:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: testing fork checkout
         uses: actions/checkout@v4.2.2
