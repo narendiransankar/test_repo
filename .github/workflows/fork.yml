@@ -7,5 +7,7 @@ jobs:
     steps:
       - name: testing fork checkout
       - uses: actions/checkout@v4.2.2
+      
+      - name: print
         run: echo hello world
         
